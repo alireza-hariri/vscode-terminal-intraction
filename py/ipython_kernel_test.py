@@ -4,8 +4,6 @@ import IPython
 import ipykernel
 
 
-
-
 # Start a new kernel if needed
 kernel_manager, kernel_client = start_new_kernel(kernel_name='python3')
 
@@ -25,4 +23,4 @@ kernel_client.execute('raise("Hello, World!")')
 # both methods works and the kernel_client.execute changes 
 # the state of the terminal 
 # but the print sent by code dose not shows on the connected terminal
-# so i just switched to anoder method
+# so i just switched to using integrated VSCode teminal (not that bad)
