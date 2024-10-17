@@ -14,7 +14,7 @@ The user simply selects some text or moves the curser to a line and press `shif+
  you should implement it yourself 😅
 
 ### default shortcuts
-* shift+Enter -> newIntegratedIpython (o),
+* shift+Enter -> copy Selection/line to terminal
 * ctrl+n -> new ipython teminal
 
 ### packaging
