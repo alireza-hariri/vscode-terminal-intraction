@@ -24,3 +24,6 @@ kernel_client.execute('raise("Hello, World!")')
 # the state of the terminal 
 # but the print sent by code dose not shows on the connected terminal
 # so i just switched to using integrated VSCode teminal (not that bad)
+
+# i will go with this method:
+# wt powershell ipython -c "some_commad()" -i 

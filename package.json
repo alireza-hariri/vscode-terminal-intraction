@@ -12,15 +12,25 @@
   "activationEvents": [],
   "main": "./src/extension.js",
   "contributes": {
-    "commands": [{
-      "command": "terminal-interaction.RunInTerminal",
-      "title": "Run in terminal"
-    }],
+    "commands": [
+      {
+        "command": "terminal-interaction.RunInTerminal",
+        "title": "Run in terminal"
+      },
+      {
+        "command": "terminal-interaction.newIntegratedIpython",
+        "title": "Open new ipython"
+      }
+    ],
     "keybindings": [
       {
           "command": "terminal-interaction.RunInTerminal",
           "key": "shift+Enter",
           "when": "editorTextFocus"
+      },
+      {
+        "command": "terminal-interaction.newIntegratedIpython",
+        "key": "ctrl+n"
       }
   ]
   },
