@@ -13,9 +13,16 @@
   "main": "./src/extension.js",
   "contributes": {
     "commands": [{
-      "command": "terminal-interaction.helloWorld",
-      "title": "Hello World"
-    }]
+      "command": "terminal-interaction.RunInTerminal",
+      "title": "Run in terminal"
+    }],
+    "keybindings": [
+      {
+          "command": "terminal-interaction.RunInTerminal",
+          "key": "shift+Enter",
+          "when": "editorTextFocus"
+      }
+  ]
   },
   "scripts": {
     "lint": "eslint .",
