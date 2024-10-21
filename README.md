@@ -23,7 +23,7 @@ to make an installable `.vsix` extension file
 2. run `vsce package`
 
 ### TODOs
-  [ ] Be smarter at terminal selection.
-  [ ] Draft some python tools as a template for custom `run_section_at`.
-  [ ] find ways to interact with external terminals.
-  [ ] add other command (run_util_here, run_current_section) 
+ - [ ] Be smarter at terminal selection.
+ - [ ] Draft some Python tools as a template for custom `run_line_at`.
+ - [ ] find ways to interact with external terminals.
+ - [ ] add other commands (run_util_here, run_current_section) 
